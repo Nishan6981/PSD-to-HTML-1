@@ -1,0 +1,29 @@
+*{
+    font-family: 'Dongle', sans-serif;
+
+    font-family: 'Luxurious Roman', 'cursive';
+}
+.header_area {
+    background: burlywood;
+    box-shadow:  13px 0 4px 6px cadetblue;
+  }
+.logo{}
+.menu{
+    padding-top: 13px;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+
+}
+.menu ul li{
+    display: inline-block;
+   
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    color: #FF0066;
+}
