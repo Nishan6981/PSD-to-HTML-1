@@ -85,8 +85,7 @@ $bgcolor:#181C28;
             color: $mycolor;
         }
         a{
-            display: inline-block;
-            
+            display: inline-block;    
         }
         .btn1{
             display: inline-block;
@@ -136,7 +135,6 @@ $bgcolor:#181C28;
         .image2{
             text-align: center;
             padding-top: 30px;
-
             img{
                 width: 100%;
                 margin-top: -200px;
@@ -152,7 +150,6 @@ $bgcolor:#181C28;
                     font-size: 14px;
                 }
                 .icon2{
-
                     i{
                         font-size: 45px;
                         margin-top: 20px;
@@ -161,7 +158,6 @@ $bgcolor:#181C28;
                 }
             }
             .link_box{
-               
               button{
                 padding: 0px 20px 0 10px;
                 border: none;
@@ -236,8 +232,6 @@ $bgcolor:#181C28;
             // margin-left: 175px;
             // margin: 0px 170px;
             margin-left: -40px;
-             
-            img{}
         }
         .icon3{
             text-align: center;
@@ -247,7 +241,7 @@ $bgcolor:#181C28;
             .fas.fa-chevron-right {
                 margin-left: 10px;
                 color: red;
-              }
+            }
         }
     }
 }
@@ -321,12 +315,11 @@ $bgcolor:#181C28;
             }
         }
         .cont1:hover{
-            background: rgb(236, 40, 40);
-            color: black;
+            background: $mycolor;
         }
         .cont1_act:hover{
-            background: rgb(236, 40, 40);
-            color: black;
+            // background: rgb(236, 40, 40);
+            background: $mycolor;   
         }
         .cont2{
             box-shadow: 0px 0px 14px 0px black; 
@@ -346,9 +339,8 @@ $bgcolor:#181C28;
             }
         }
         .cont2:hover{
-            background: rgb(236, 40, 40);
-            color: black;
-
+            background: $mycolor;
+            color: white;
         }
     }    
 }
@@ -377,8 +369,7 @@ $bgcolor:#181C28;
         }
     }
     .testimonial_box:hover{
-        background: rgb(236, 40, 40);
-        color: black;
+        background: $mycolor;
     }
     .testi_icon{
        text-align: right;

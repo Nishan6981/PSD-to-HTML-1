@@ -405,13 +405,11 @@ a {
 }
 
 #team_area .team_cont .cont1:hover {
-  background: #ec2828;
-  color: black;
+  background: #EE0A3C;
 }
 
 #team_area .team_cont .cont1_act:hover {
-  background: #ec2828;
-  color: black;
+  background: #EE0A3C;
 }
 
 #team_area .team_cont .cont2 {
@@ -447,8 +445,8 @@ a {
 }
 
 #team_area .team_cont .cont2:hover {
-  background: #ec2828;
-  color: black;
+  background: #EE0A3C;
+  color: white;
 }
 
 #testimonial_area {
@@ -490,8 +488,7 @@ a {
 }
 
 #testimonial_area .testimonial_box:hover {
-  background: #ec2828;
-  color: black;
+  background: #EE0A3C;
 }
 
 #testimonial_area .testi_icon {
