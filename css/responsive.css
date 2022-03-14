@@ -1,7 +1,7 @@
  /* X-Small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {}
  /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
     /* ***************HEADER AREA START ********************/
     .header_area {
         -webkit-box-shadow: 3px 0px 10px 10px black;
@@ -16,7 +16,7 @@
         display: none;
     }
     .slicknav_menu{
-        display: block;
+        display: block !important;
     }
     .menu .slicknav_menu .slicknav_menutxt {
         display: none;
@@ -27,11 +27,11 @@
     .menu .slicknav_btn {
         margin:-1px 12px 4px;
         text-decoration:none;
-        text-shadow:0 1px 1px rgba(255,255,255,.75);
+        text-shadow:0 1px 1px rgba(87, 84, 84, 0.75);
         -webkit-border-radius:4px;
         -moz-border-radius:4px;
         border-radius:4px;
-        background-color:grey;
+        background-color:rgb(99, 97, 97);
         padding: 6px 12px;
     }
     .menu .slicknav_menu li{
@@ -50,80 +50,66 @@
     /*********** APP FEATURES AREA START ****************/
     .app_det {
         padding-top: 50px;
-    }
-    .appfeatures .app_det .app_cont {
         text-align: center;
+    }
+    .lbox1, .lbox2{
+        margin-bottom: 20px;
       }
-    .appfeatures .app_det .app_cont .pera1 .icon2 i {
-        margin-left: -20px;
-        margin-top: -45px;
-    }
-    .appfeatures .app_det .app_cont .pera1 {
-        padding-bottom: 50px;
-    }
-    .icon2 {
-        padding-bottom: 10px;
-    }
-    .link_box {
-        margin-left: 60px;
-      }
-    .appfeatures .app_det .app_cont .link_box .lbox2 {
-       margin-left: 10px;
-       margin-right: 60px;
-        padding-top: 20px;
-    }
+      
+  
     /*************** APP FEATURES AREA END ************************/
     
     .about_area {
        padding-bottom: 60px;
        padding-top: 60px;
     }
-    .about_area .about_cont {
+    .about_area, .about_cont {
         margin-left: 0px !important;
         text-align: center;
     }
-    .about_area .image3 {
+    .about_area, .image3 {
         margin-left: 0px !important;
         text-align: center;
     }
 
-    .screenshorts .screen .image4 {
-        text-align: center;
-      }
-    .screenshorts .screen .icon3 {
+    .screenshorts, .image4 {
+        text-align: center !important;
+        margin-left: 0px !important;
+    }
+    .screenshorts, .icon3 {
         text-align: center;
         margin-right: 0px !important;
-      }
-
-    .pricing_area .pricing_box1 {
-        margin-bottom: 35px;
-    }
-    .pricing_area .pricing_box {
-        margin-bottom: 35px;
     }
 
-    .team_area .team_cont .cont1 {
-        margin-bottom: 30px;
+    .pricing_area, .pricing_box1 {
+        margin-bottom: 35px !important;
     }
-    .team_area .team_cont .cont2 {
-        margin-bottom: 30px;
+    .pricing_area, .pricing_box {
+        margin-bottom: 35px !important;
+    }
+
+    .team_area, .team_cont, .cont1 {
+        margin-bottom: 30px !important;
+    }
+    .team_area, .team_cont, .cont2 {
+        margin-bottom: 30px !important;
     }
 
     .testimonial_tittle {
         text-align: center;
         margin-bottom: 3.125rem;
     }
-    .testimonial_area .testimonial_box {
+    .testimonial_area, .testimonial_box {
         text-align: center;
         margin-bottom: 35px;
     }
-    .testimonial_area .testi_icon {
-        text-align: center ;
+    .testimonial_area, .testi_icon {
+        text-align: center !important ;
         margin-right: 0px !important;
         margin-top: -20px;
     }
 
-    .faq_area .image5 {
+    .faq_area, .image5 {
         text-align: center;
         margin-bottom: 20px;
     }
@@ -131,51 +117,101 @@
     .blog_box {
         margin-bottom: 30px;
     }
-    .box_con1 {
+    /* .box_con1 {
         margin-top: 20px;
     }
     .box_con2 {
         margin-top: 20px;
-    }
+    } */
     .image6 {
         text-align: center;
     }
 
-    .contact_area .table_box .form-box .bttn {
-        text-align: center;
-        margin-left: 0px !important;
+    .contact_area, .table_box, .form-box, .bttn {
+        text-align: center !important;
+        /* margin-left: 0px !important; */
     }
-    .contact_area .table_box .form-box .bttn button {
+    .contact_area, .table_box, .form-box, .bttn button {
         padding: 7px 16px;
     }
 
 
     .end_box2 {
-        padding-top: 20px;
+        padding-top: 30px !important;
         padding-bottom: 20px;
     }
-    .end_area .end_contant .end_box2 .end_icon2 {
+    .end_area, .end_contant, .end_icon2 {
         padding-top: 0px !important;
     }
     .end_box3{
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .end_area .end_contant .end_box3 .end_icon3 {
+    .end_area, .end_contant, .end_box3, .end_icon3 {
         padding-top: 0px !important;
     }
       
 }    
 /* // Medium devices (tablets, less than 992px) */
-@media (min-width: 991.98px) {
+@media (min-width: 768px) {
     .slicknav_menu{
         display: none;
     }
-    
+
+    .header_area .header_top .menu ul li {
+        padding: 3px 0px !important;
+    }
+    #appfeatures .app_det .image2 {
+        margin-top: 70px;
+    }
+    #about_area {
+        padding-top: 60px;
+    }
+    .pricing_act {
+        width: 100% ;
+        margin-left: 170px;
+        margin-top: 30px;
+    }
+    .cont1_act {
+        width: 100%;
+       margin-left: 135px !important; 
+       margin-top: 30px !important;
+    } 
+    .testimonial_tittle {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    #testimonial_area .testi_icon {
+        margin-right: 310px;
+    }
+    .end_box3, .end_box4 {
+        padding-top: 50px;
+    }
 }
 
 /* // Large devices (desktops, less than 1200px) */
-@media (min-width: 1199.98px) {}
+@media (min-width: 992px) {
+    .image2{
+        margin-top: 0px !important;
+    } 
+    #about_area {
+        padding-top: 0px !important;
+    }
+    .pricing_act {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .cont1_act {
+       margin-left: 0px !important; 
+       margin-top: 0px !important;
+    }
+    .testimonial_tittle{
+        text-align: left; 
+    } 
+    .end_box3, .end_box4 {
+        padding-top: 0px;
+    } 
+}
 
 /* // X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1399.98px) {

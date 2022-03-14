@@ -26,12 +26,12 @@ a {
 
 .header_area .header_top .logo h1 {
   color: #EE0A3C;
-  font-size: 35px;
-  margin-top: 6px;
+  font-size: 2.1875rem;
+  margin-top: 0.375rem;
 }
 
 .header_area .header_top .menu {
-  padding-top: 15px;
+  padding-top: 0.9375rem;
 }
 
 .header_area .header_top .menu ul {
@@ -46,8 +46,8 @@ a {
 .header_area .header_top .menu ul li a {
   display: inline-block;
   text-decoration: none;
-  font-size: 13px;
-  margin-left: 25px;
+  font-size: 0.9375rem;
+  margin-left: 1.5625rem;
   color: #FBF1E4;
   -webkit-transition: .5s;
   transition: .5s;
@@ -62,9 +62,13 @@ a {
 }
 
 .header_area .header_top .menu ul li .style {
-  padding: 2px 16px;
+  padding: 0.125rem 1rem;
   background: #EE0A3C;
-  border-radius: 12px;
+  border-radius: 0.75rem;
+}
+
+.header_area .header_top .menu ul li .style:hover {
+  color: white;
 }
 
 .header_area .header_top .menu .slicknav_menu {
@@ -102,23 +106,29 @@ a {
   display: inline-block;
   padding: 7px 20px;
   background: #EE0A3C;
+  border: #EE0A3C;
   border-radius: 6px;
   color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 #home_area .home_cont .btn2 {
   margin-left: 10px;
   display: inline-block;
-  padding: 5px 30px;
-  border: solid #EE0A3C;
+  padding: 5px 25px;
+  border: solid;
   border-radius: 10px;
   color: #EE0A3C;
   font-size: 15px;
 }
 
+#home_area .home_cont .btn1:hover {
+  background: #9c033e;
+}
+
 #home_area .home_cont .icon {
   color: #EE0A3C;
-  margin-left: 150px;
   margin-top: -30px;
 }
 
@@ -159,7 +169,6 @@ a {
 #appfeatures .app_det .app_cont .pera1 {
   color: white;
   padding-bottom: 30px;
-  position: relative;
 }
 
 #appfeatures .app_det .app_cont .pera1 .act {
@@ -171,25 +180,31 @@ a {
 }
 
 #appfeatures .app_det .app_cont .pera1 .icon2 i {
-  margin-left: -60px;
   font-size: 45px;
-  position: absolute;
   margin-top: 20px;
   color: #EC0833;
 }
 
 #appfeatures .app_det .app_cont .link_box button {
-  padding: 0px 55px;
+  padding: 0px 20px 0 10px;
   border: none;
   border-radius: 10px;
-  margin-right: 15px;
   background: #CF0839;
   color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#appfeatures .app_det .app_cont .link_box button .fa-apple {
+  font-size: 37px;
+}
+
+#appfeatures .app_det .app_cont .link_box button .fa-google-play {
+  font-size: 32px;
 }
 
 #appfeatures .app_det .app_cont .link_box button span {
   display: inline-block;
-  padding-top: 4px;
 }
 
 #appfeatures .app_det .app_cont .link_box button span p {
@@ -197,27 +212,13 @@ a {
   text-align: left;
 }
 
+#appfeatures .app_det .app_cont .link_box button:hover {
+  background: #9c033e;
+}
+
 #appfeatures .app_det .app_cont .link_box i {
-  position: absolute;
-  margin-top: 12px;
-  font-size: 37px;
   color: white;
-}
-
-#appfeatures .app_det .app_cont .link_box .lbox1 .first {
-  margin-left: -56px;
-}
-
-#appfeatures .app_det .app_cont .link_box .lbox1 .fab.fa-apple {
-  margin-left: -50px;
-}
-
-#appfeatures .app_det .app_cont .link_box .lbox2 {
-  margin-left: -160px;
-}
-
-#appfeatures .app_det .app_cont .link_box .lbox2 .fab.fa-google-play {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /******************APP FEATURES AREA END******************/
@@ -276,8 +277,8 @@ a {
 }
 
 #screenshorts .screen .image4 {
-  width: 500px;
-  margin-left: -60px;
+  text-align: center;
+  margin-left: -40px;
 }
 
 #screenshorts .screen .icon3 {
@@ -316,23 +317,24 @@ a {
   font-size: 16px;
 }
 
-#pricing_area .pricing_box {
+#pricing_area .pricing_box, #pricing_area .pricing_box1 {
   border: solid #EE0A3C;
   text-align: center;
-  margin: 0px 30px;
+  width: 85%;
+  margin: 0 auto;
 }
 
-#pricing_area .pricing_box p {
+#pricing_area .pricing_box p, #pricing_area .pricing_box1 p {
   font-size: 17px;
   font-weight: bold;
   color: white;
 }
 
-#pricing_area .pricing_box button {
-  border: none #EE0A3C;
+#pricing_area .pricing_box button, #pricing_area .pricing_box1 button {
+  border: solid #EE0A3C;
   padding: 15px 40px;
   border-radius: 10px;
-  background: #EE0A3C;
+  background: none;
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -340,28 +342,12 @@ a {
   margin-top: 15px;
 }
 
-#pricing_area .pricing_box1 {
-  border: solid #EE0A3C;
-  text-align: center;
-  margin: 0px 30px;
+#pricing_area .pricing_box button:hover, #pricing_area .pricing_box1 button:hover {
+  background: #EE0A3C;
 }
 
-#pricing_area .pricing_box1 p {
-  font-size: 17px;
-  font-weight: bold;
-  color: white;
-}
-
-#pricing_area .pricing_box1 button {
-  border: solid #EE0A3C;
-  padding: 10px 40px;
-  background: none;
-  border-radius: 10px;
-  margin-bottom: 33px;
-  margin-top: 15px;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
+#pricing_area .pricing_box button:focus, #pricing_area .pricing_box1 button:focus {
+  background: #EE0A3C;
 }
 
 #team_area {
@@ -386,37 +372,46 @@ a {
   margin: 0 auto;
 }
 
-#team_area .team_cont .cont1 {
+#team_area .team_cont .cont1, #team_area .team_cont .cont1_act {
   -webkit-box-shadow: 0px 0px 14px 0px black;
           box-shadow: 0px 0px 14px 0px black;
   text-align: center;
   padding: 80px 40px;
   border-radius: 5%;
-  margin: 0 auto;
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
-#team_area .team_cont .cont1 img {
+#team_area .team_cont .cont1 img, #team_area .team_cont .cont1_act img {
   border-radius: 50%;
   border: solid #EE0A3C;
 }
 
-#team_area .team_cont .cont1 h3 {
+#team_area .team_cont .cont1 h3, #team_area .team_cont .cont1_act h3 {
   padding-top: 10px;
-  color: white;
 }
 
-#team_area .team_cont .cont1 span {
+#team_area .team_cont .cont1 span, #team_area .team_cont .cont1_act span {
   font-size: 17px;
-  color: white;
 }
 
-#team_area .team_cont .cont1 .team_icon {
+#team_area .team_cont .cont1 .team_icon, #team_area .team_cont .cont1_act .team_icon {
   padding-top: 10px;
 }
 
-#team_area .team_cont .cont1 .team_icon i {
+#team_area .team_cont .cont1 .team_icon i, #team_area .team_cont .cont1_act .team_icon i {
   padding: 0px 10px;
-  color: white;
+}
+
+#team_area .team_cont .cont1:hover {
+  background: #ec2828;
+  color: black;
+}
+
+#team_area .team_cont .cont1_act:hover {
+  background: #ec2828;
+  color: black;
 }
 
 #team_area .team_cont .cont2 {
@@ -426,7 +421,8 @@ a {
   padding: 80px 40px;
   border-radius: 5%;
   color: #EE0A3C;
-  margin: 0 auto;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 #team_area .team_cont .cont2 img {
@@ -448,6 +444,11 @@ a {
 
 #team_area .team_cont .cont2 .team_icon i {
   padding: 0px 10px;
+}
+
+#team_area .team_cont .cont2:hover {
+  background: #ec2828;
+  color: black;
 }
 
 #testimonial_area {
@@ -472,6 +473,8 @@ a {
           box-shadow: -8px 0px 20px 3px black;
   border-radius: 20px;
   color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 #testimonial_area .testimonial_box p {
@@ -486,11 +489,15 @@ a {
   font-size: 13px;
 }
 
+#testimonial_area .testimonial_box:hover {
+  background: #ec2828;
+  color: black;
+}
+
 #testimonial_area .testi_icon {
   text-align: right;
   font-size: 35px;
   color: red;
-  margin-right: 330px;
 }
 
 #testimonial_area .testi_icon i {
@@ -593,6 +600,11 @@ a {
   margin: 0 auto;
 }
 
+#blog_area .blog_cont .blog_box {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
 #blog_area .blog_cont .blog_box a {
   color: #EE0A3C;
   font-size: 12px;
@@ -636,6 +648,11 @@ a {
   font-size: 13px;
   display: inline-block;
   padding-bottom: 13px;
+}
+
+#blog_area .blog_cont .blog_box:hover {
+  -webkit-transform: scaleX(0.8);
+          transform: scaleX(0.8);
 }
 
 #contact_area {
@@ -864,6 +881,12 @@ a {
   font-size: 16px;
   margin: 0px 2px;
   border-radius: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#end_area .end_contant .end_box4 .photo2 .end4_icon i:hover {
+  color: black;
 }
 
 .footer_area {
